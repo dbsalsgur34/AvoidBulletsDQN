@@ -70,7 +70,7 @@ def task():
         
     ex.repaint()
 
-    threading.Timer(0.03, task).start()
+    threading.Timer(0.003, task).start()
 
 
 if __name__ == '__main__':
